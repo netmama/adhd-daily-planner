@@ -2,8 +2,8 @@
 name: adhd-daily-planner
 description: ADHD-optimized daily planning assistant with time estimation and energy-based task allocation
 version: 1.0.0
-author: Erin Leibowitz
-copyright: © 2026 Erin Leibowitz
+author: NetMama
+copyright: © 2026 NetMama
 license: MIT
 ---
 
@@ -19,7 +19,7 @@ license: MIT
 
 MIT License
 
-Copyright (c) 2026 Erin Leibowitz
+Copyright (c) 2026 NetMama
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

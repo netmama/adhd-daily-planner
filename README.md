@@ -171,7 +171,7 @@ Just include the original copyright notice.
 
 ## 🙏 Acknowledgments
 
-Created by **Erin Leibowitz** for the ADHD community and anyone who struggles with time blindness, energy management, or realistic planning.
+Created by **NetMama** for the ADHD community and anyone who struggles with time blindness, energy management, or realistic planning.
 
 Inspired by real-world struggles with executive function and the need for planning tools that work *with* ADHD brains, not against them.
 
