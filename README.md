@@ -47,7 +47,7 @@ Example: "Write blog post" becomes:
 1. **Download this skill:**
    ```bash
    cd ~/.claude/skills/
-   git clone https://github.com/YOUR-USERNAME/adhd-daily-planner.git
+   git clone https://github.com/netmama/adhd-daily-planner.git
    ```
 
 2. **Restart Claude Code** (or reload the skills directory)
@@ -177,8 +177,8 @@ Inspired by real-world struggles with executive function and the need for planni
 
 ## 💬 Support & Feedback
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR-USERNAME/adhd-daily-planner/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR-USERNAME/adhd-daily-planner/discussions)
+- **Issues:** [GitHub Issues](https://github.com/netmama/adhd-daily-planner/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/netmama/adhd-daily-planner/discussions)
 
 ---
 
