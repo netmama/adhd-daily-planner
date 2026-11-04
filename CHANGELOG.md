@@ -1,67 +1,29 @@
 # Changelog
 
-All notable changes to the ADHD Daily Planner skill will be documented in this file.
+All notable changes to this fork are documented here.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [2.0.0] - 2026-11-05
+
+### Changed
+- Reframed the original ADHD Daily Planner as a life-aware planning and execution companion.
+- Expanded planning beyond work into learning, home, self-care, worship or personal values, relationships, rest, and enjoyment.
+- Connected long-term direction, weekly milestones, and daily next actions.
+- Replaced a single High/Medium/Low energy model with a flexible view of cognitive, physical, symptom, emotional/social, and recovery context.
+- Made time estimates adaptive to user-provided task history rather than fixed generic percentages.
+- Added lightweight execution coaching and non-judgmental recovery after disruptions.
+- Clarified that the skill must not claim access to local apps or duplicate an existing tracker.
+- Added privacy and health boundaries.
+
+### Added
+- `PLANNING_MODEL.md` with the planning framework and design rationale.
+- Updated quick-start guide and examples for whole-life planning.
+
+### Attribution
+- Adapted from NetMama's original ADHD Daily Planner under the MIT License.
+- Original copyright and license notice retained.
 
 ## [1.0.0] - 2026-02-11
 
 ### Added
-- Initial release of ADHD-optimized daily planning skill
-- Anchor-based planning (identify the ONE win for the day)
-- Realistic time estimation with breakdown of:
-  - Core work time
-  - Startup costs (5-15min)
-  - Buffer time (25-50%)
-  - Transition time (5-10min between tasks)
-- Energy-based task allocation (high/medium/low)
-- Planning for 70% capacity instead of 100%
-- Support for custom time blocks (adapts to user's schedule)
-- ADHD-friendly principles:
-  - Minimizes context-switching
-  - Accounts for "got pulled into" moments
-  - Validates realistic planning
-  - Focuses on meaningful wins vs. task count
-- Comprehensive documentation:
-  - README.md with installation instructions
-  - EXAMPLES.md with real-world planning sessions
-  - PUBLISH.md with publishing guide
-  - MIT License for open sharing
-- Example planning sessions for:
-  - Medium energy day with constraints
-  - Low energy day
-  - High energy with multiple projects
-  - Overwhelm recovery mode
-
-### Design Decisions
-- Generalized from personal use to work for anyone with ADHD
-- Made time blocks configurable vs. hardcoded
-- Included MIT license for maximum sharing
-- Added explicit time math for transparency
-- Focused on time blindness accommodation as core feature
-
----
-
-## Future Versions (Ideas for v1.1.0+)
-
-### Potential Additions
-- [ ] Weekly planning mode
-- [ ] Integration with specific task management systems (Notion, Todoist)
-- [ ] Sprint/project planning extension
-- [ ] Template library for common day types
-- [ ] Energy tracking over time
-- [ ] Customizable task categories
-- [ ] Support for shift work schedules
-- [ ] Multi-language support
-
-### Feedback Requested
-- Does the time estimation formula work for different types of work?
-- Should there be presets for different professions? (developer, writer, designer)
-- Would users want integration with calendar apps?
-
----
-
-## Version History
-
-- **1.0.0** (2026-02-11) - Initial public release
+- Initial release of ADHD-optimized daily planning skill.
+- Anchor-based planning, time estimation, energy-based allocation, flexible time blocks, and example sessions.
