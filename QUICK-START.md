@@ -1,149 +1,42 @@
-# Quick Start: Publishing Your Skill
+# Quick Start
 
-## ✅ What We've Done So Far
+## What this skill is for
 
-Your skill is ready to publish! Here's what's prepared:
+Life-Aware Daily Planner helps connect the user's longer-term direction to realistic daily actions across work, learning, home, self-care, worship or personal values, relationships, rest, and enjoyment.
 
-```
-adhd-daily-planner/
-├── .git/                    # Git repository initialized ✓
-├── .gitignore              # Ignore macOS and editor files ✓
-├── CHANGELOG.md            # Version history tracker ✓
-├── EXAMPLES.md             # Real-world usage examples ✓
-├── PUBLISH.md              # Step-by-step publishing guide ✓
-├── README.md               # Main documentation ✓
-└── SKILL.md                # The actual skill with MIT license ✓
-```
+It is designed to be lightweight: the user should not need to complete a long questionnaire or maintain a second task tracker.
 
-## 🚀 Next Steps (5 minutes)
+## Start a planning conversation
 
-### 1. Create GitHub Repository
-1. Go to: https://github.com/new
-2. Name: `adhd-daily-planner`
-3. Visibility: **Public**
-4. Don't initialize with anything (we have files already)
-5. Click "Create repository"
+Try any of these:
+- "Help me plan today."
+- "I have a low-capacity day. Help me choose what matters."
+- "Help me turn this goal into a small next step."
+- "Here's my task log. What should I adjust tomorrow?"
+- "I got derailed. Help me recover the day."
 
-### 2. Push Your Code
-After creating the repo, GitHub will show you commands. Run:
+## The basic flow
 
-```bash
-cd ~/Documents/claude-skills-publishing/adhd-daily-planner
-git remote add origin https://github.com/YOUR-USERNAME/adhd-daily-planner.git
-git branch -M main
-git push -u origin main
-```
+1. Identify the most meaningful next step toward a current goal or responsibility.
+2. Check only the relevant constraints: commitments, mental focus, physical stamina, symptoms, stress, and recovery.
+3. Choose a small number of tasks that fit the actual day.
+4. Include setup, transitions, uncertainty, and recovery where they matter.
+5. Keep optional tasks optional.
+6. Adjust kindly when reality differs from the plan.
 
-Replace `YOUR-USERNAME` with your GitHub username.
+## A useful daily plan
 
-### 3. Update README Links
-Edit README.md and replace all instances of `YOUR-USERNAME` with your actual GitHub username.
+- **Today's direction:** what this day supports.
+- **Main win:** one achievable outcome or next step.
+- **Fixed commitments:** appointments and real constraints.
+- **Plan:** a small set of relevant progress and maintenance tasks.
+- **Recovery:** rest or lighter time when needed.
+- **If disrupted:** the smallest restart action or the one priority to preserve.
 
-```bash
-# Open in your editor and find/replace:
-# YOUR-USERNAME → youractualusername
+## Using task logs
 
-git add README.md
-git commit -m "Update README with correct GitHub URLs"
-git push
-```
+If the user shares elapsed-time records from an existing app, use those records to refine estimates and notice patterns. Do not ask them to duplicate logs or claim access to a local app that is not connected.
 
-### 4. Create Release
-On GitHub:
-1. Go to your repo → "Releases" → "Create a new release"
-2. Tag: `v1.0.0`
-3. Title: `v1.0.0 - Initial Release`
-4. Copy description from PUBLISH.md
-5. Click "Publish release"
+## Important
 
-### 5. Share!
-Your skill is now published at:
-```
-https://github.com/YOUR-USERNAME/adhd-daily-planner
-```
-
-Share it on:
-- Twitter/X
-- Reddit (r/ADHD, r/ClaudeAI)
-- Anthropic forums/Discord
-- Your personal network
-
-## 📋 Installation for Others
-
-Others can install your skill with:
-
-```bash
-cd ~/.claude/skills/
-git clone https://github.com/YOUR-USERNAME/adhd-daily-planner.git
-```
-
-Then use it with: `/adhd-daily-planner`
-
-## 🔄 Making Updates Later
-
-When you improve the skill:
-
-1. Edit SKILL.md
-2. Update version in SKILL.md frontmatter
-3. Add entry to CHANGELOG.md
-4. Commit and push:
-   ```bash
-   git add .
-   git commit -m "Description of changes"
-   git push
-   ```
-5. Create new release on GitHub with new version
-
-## 💡 Pro Tips
-
-### Add GitHub Topics
-After publishing, add these topics to your repo:
-- `claude-code`
-- `claude-skill`
-- `adhd`
-- `productivity`
-- `daily-planning`
-
-(Click ⚙️ gear icon next to "About" on your repo page)
-
-### Enable Discussions
-Turn on GitHub Discussions for community Q&A:
-- Settings → Features → Check "Discussions"
-
-### Watch for Issues
-Enable notifications to help users who have questions.
-
-## 🎯 What Makes This Skill Valuable
-
-Your skill solves real problems:
-- ✅ Addresses time blindness (detailed estimates)
-- ✅ Prevents overplanning (70% capacity rule)
-- ✅ Matches energy to tasks
-- ✅ ADHD-aware (exec function challenges)
-- ✅ Produces actionable daily plans
-
-This is genuinely helpful for people with ADHD!
-
-## 📄 Your Rights
-
-You own this skill. The MIT license means:
-- ✅ Others can freely use it
-- ✅ You get credit (attribution required)
-- ✅ No liability on you
-- ✅ Others can modify and share it
-
-Your copyright is protected.
-
-## 🆘 Need Help?
-
-- **Publishing questions:** See PUBLISH.md
-- **Git issues:** Google "git [your question]"
-- **GitHub help:** https://docs.github.com
-
-## 🎉 Congratulations!
-
-You're about to share your work with the world. That's awesome!
-
-Your skill can genuinely help people manage ADHD challenges.
-
-Ready? Open PUBLISH.md and follow Step 1. 🚀
+This is a planning companion, not a medical tool. It must not diagnose, recommend medication changes, or treat symptoms as a motivation problem. Keep sensitive personal details out of public repository files.
